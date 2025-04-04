@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import './App.css';
-import { SERVER_API, SERVER_URL } from './serverData';
+import { SERVER_API } from './serverData';
 
 // const SERVER_API = process.env.REACT_APP_SERVER_API;
 // const SERVER_API = 'http://localhost:8000';
@@ -58,7 +58,7 @@ function App() {
   return (
     <div className="App">
       <h1 style={{display: 'flex', alignItems: 'center', justifyContent: 'center'}} >
-        <img style={{width: '60px'}} src={`${SERVER_URL}/to-do-list.png`} alt="logo" />
+        <img style={{width: '60px'}} src={`/to-do-list.png`} alt="logo" />
         <span> Todo List </span>
       </h1>
 

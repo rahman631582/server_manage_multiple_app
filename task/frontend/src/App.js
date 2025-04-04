@@ -76,7 +76,7 @@ function TaskList() {
 
 function App() {
   return (
-    <Router basename="/task">
+    <Router basename="/">
       <Routes>
         <Route path="/" element={<TaskList />} />
         <Route path="/task/:id" element={<TaskDetails />} />
